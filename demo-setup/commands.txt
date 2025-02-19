@@ -1,0 +1,12 @@
+docker build . or docker build -t myapp . |-> builing the image
+
+docker run -d -p 5000:3000 --name myapp-container myapp |-> run image in container
+
+docker ps |-> for list of running containers
+
+docker stop <container-name> |-> for stop the container
+
+docker rmi <image-tag> |-> for delete image 
+docker rmi $(docker images -q) |-> remove all images
+
+docker rm <container-name> |-> remove the container

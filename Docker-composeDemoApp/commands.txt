@@ -1,0 +1,14 @@
+-> docker-compose up
+
+This will:
+
+Build the images if they don’t exist.
+Create the containers based on the configuration in the docker-compose.yml file.
+Start the containers.
+
+
+-> docker-compose down
+This will stop and remove all containers defined in the docker-compose.yml file.
+
+-> docker-compose stop
+->If you just want to stop the containers without removing them.
